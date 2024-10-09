@@ -30,8 +30,8 @@ function Teachers() {
   }
 
   function handleLogOut(){
-    localStorage.clear()
     window.location.reload()
+    localStorage.clear()
 
   }
   return (
